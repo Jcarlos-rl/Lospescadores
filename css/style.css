@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+.spacing100{
+    height: 100px;
+}
+
+.container90{
+    margin:0 auto;
+    max-width:1280px;
+    width:90%
+}
+@media only screen and (min-width: 601px){
+    .container90{
+        width:85%
+    }
+}
+@media only screen and (min-width: 993px){
+    .container90{
+        width:90%
+    }
+}
+
+.letter{
+    font-family: 'Lobster', cursive;
+    color: #c5c6c7;
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.letter-prin{
+    font-family: 'Lobster', cursive;
+    position: relative;
+}
+.custom-grey{
+    background-color: #f3f5f7;
+}
+hr{
+    border-top: 2px solid #f68820;
+    width: 30%;
+}
+.nuestra_cocina{
+    height: 100vh;
+}
+.maps{
+    height: 100vh;
+}
+.gallery{
+    height: 100vh;
+}
+.pescadores-text{
+    color: #f68820;
+}
+.text-location{
+    position: absolute;
+}
+.contacto{
+    height: 100vh;
+}
