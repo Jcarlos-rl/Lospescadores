@@ -3,6 +3,9 @@
 .spacing100{
     height: 100px;
 }
+.spacing260{
+    height: 260px;
+}
 
 .container90{
     margin:0 auto;
@@ -17,6 +20,18 @@
 @media only screen and (min-width: 993px){
     .container90{
         width:90%
+    }
+    .nuestra_cocina{
+        height: 100vh;
+    }
+    .maps{
+        height: 100vh;
+    }
+    .gallery{
+        height: 100vh;
+    }
+    .contacto{
+        height: 100vh;
     }
 }
 
@@ -38,21 +53,9 @@ hr{
     border-top: 2px solid #f68820;
     width: 30%;
 }
-.nuestra_cocina{
-    height: 100vh;
-}
-.maps{
-    height: 100vh;
-}
-.gallery{
-    height: 100vh;
-}
 .pescadores-text{
     color: #f68820;
 }
 .text-location{
     position: absolute;
-}
-.contacto{
-    height: 100vh;
 }
