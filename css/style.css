@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+.text-body{
+    font-family: 'Quicksand', sans-serif;
+}
 
 .spacing100{
     height: 100px;
@@ -12,6 +17,14 @@
     max-width:1280px;
     width:90%
 }
+.logo{
+    height: 55px;
+}
+@media only screen and (max-width: 601px){
+    .info-ubicaciones{
+        text-align: center;
+    }
+}
 @media only screen and (min-width: 601px){
     .container90{
         width:85%
@@ -19,7 +32,10 @@
 }
 @media only screen and (min-width: 993px){
     .container90{
-        width:90%
+        width:80%
+    }
+    .logo{
+        height: 63px;
     }
     .nuestra_cocina{
         height: 100vh;
