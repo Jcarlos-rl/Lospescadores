@@ -5,8 +5,15 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+.lobster{
+    font-family: 'Lobster', sans-serif;
+}
+
 .spacing100{
     height: 100px;
+}
+.spacing70{
+    height: 50px;
 }
 .spacing260{
     height: 260px;
@@ -49,6 +56,9 @@
     .contacto{
         height: 100vh;
     }
+    .menu{
+        height: 100vh;
+    }
 }
 
 .letter{
@@ -74,4 +84,13 @@ hr{
 }
 .text-location{
     position: absolute;
+}
+
+.nuevos-platillos{
+    background-image: url(../images/tacos.PNG);
+    background-size: cover;
+}
+
+.row-bottom-0{
+    margin-bottom: 0;
 }
