@@ -8,6 +8,11 @@ $('.carousel.carousel-slider').carousel({
     fullWidth: true,
     indicators: true
 });
+
+setInterval(function(){
+    $('.carousel.carousel-slider').carousel('next');
+}, 3000);
+
 $(document).ready(function(){
     $('.materialboxed').materialbox();
 });

@@ -94,3 +94,14 @@ hr{
 .row-bottom-0{
     margin-bottom: 0;
 }
+
+.carousel .indicators .indicator-item{
+    background-color: rgba(246, 136, 32,0.5);
+}
+.carousel .indicators .indicator-item.active{
+    background-color: #f68820;
+}
+.slider .slides li .caption{
+    top: 5%;
+    left: 5%;
+}
